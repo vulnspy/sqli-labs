@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: vsplate/centos_apache2_php5_mysql5:latest
+    image: vsplate/centos_apache2_php5_mysql5
     volumes:
       - ./html/:/var/www/html/
     ports:
